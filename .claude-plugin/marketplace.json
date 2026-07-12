@@ -1,0 +1,11 @@
+{
+  "name": "finding-unknowns-skills",
+  "owner": { "name": "chen-xin-94" },
+  "plugins": [
+    {
+      "name": "finding-unknowns",
+      "source": "./",
+      "description": "Surface your unknown unknowns before they get expensive. An orchestrator skill plus 8 phase skills: blindspot pass, brainstorms, interviews, references, plans, notes, pitches, and a merge quiz."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "finding-unknowns",
+  "description": "9 skills for finding your unknowns before, during, and after implementation, plus an orchestrator that routes you to the right phase: finding-unknowns (orchestrator), blindspot-pass, brainstorm-prototypes, interview-me, reference-hunt, implementation-plan, implementation-notes, pitch-packager, change-quiz.",
+  "version": "1.0.0",
+  "author": { "name": "chen-xin-94" },
+  "homepage": "https://github.com/chen-xin-94/finding-unknowns-skills"
+}
