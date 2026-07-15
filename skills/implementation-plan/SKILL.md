@@ -1,7 +1,6 @@
 ---
 name: implementation-plan
 description: Write an implementation plan that leads with the decisions the user is most likely to change and buries the mechanical work at the bottom. Use when planning is requested before a build, especially after a blindspot pass, brainstorm, or interview. Phase - before implementation.
-disable-model-invocation: false
 ---
 
 # Implementation plans

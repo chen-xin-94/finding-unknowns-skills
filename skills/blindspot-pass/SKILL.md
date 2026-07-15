@@ -1,7 +1,6 @@
 ---
 name: blindspot-pass
 description: Surface the user's unknown unknowns before work starts. Use when the user is entering an unfamiliar codebase area or an unfamiliar domain (design, video, infra), or says "blind spot pass" or asks to find their "unknown unknowns". Phase - before implementation.
-disable-model-invocation: false
 ---
 
 # Blind spot pass

@@ -1,7 +1,6 @@
 ---
 name: reference-hunt
 description: Use existing source code as the specification when the user can't describe what they want in words. Use when the user points at a library, module, folder, or site and says "like this", even if it's in a different language or stack. Phase - before implementation.
-disable-model-invocation: false
 ---
 
 # References

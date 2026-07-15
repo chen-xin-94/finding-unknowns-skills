@@ -1,0 +1,28 @@
+{
+  "name": "finding-unknowns",
+  "version": "1.0.0",
+  "description": "Nine skills for surfacing unknown unknowns before, during, and after implementation.",
+  "author": {
+    "name": "chen-xin-94",
+    "url": "https://github.com/chen-xin-94"
+  },
+  "homepage": "https://github.com/chen-xin-94/finding-unknowns-skills",
+  "repository": "https://github.com/chen-xin-94/finding-unknowns-skills",
+  "license": "MIT",
+  "keywords": ["planning", "discovery", "unknowns", "implementation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Finding Unknowns",
+    "shortDescription": "Surface unknown unknowns before they get expensive",
+    "longDescription": "An orchestrator plus eight phase skills for blind-spot discovery, prototypes, interviews, reference hunting, planning, implementation notes, review packaging, and merge quizzes.",
+    "developerName": "chen-xin-94",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Help me surface the unknown unknowns in this task.",
+      "Run a blind-spot pass before I implement this.",
+      "Package what we learned for review."
+    ],
+    "websiteURL": "https://github.com/chen-xin-94/finding-unknowns-skills"
+  }
+}

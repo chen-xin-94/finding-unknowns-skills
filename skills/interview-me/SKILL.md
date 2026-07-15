@@ -1,7 +1,6 @@
 ---
 name: interview-me
 description: Interview the user one question at a time to resolve remaining ambiguity before implementation. Use when planning or brainstorming is done but unknowns remain, or when the user asks to be interviewed about a task or spec. Phase - before implementation.
-disable-model-invocation: false
 ---
 
 # Interviews

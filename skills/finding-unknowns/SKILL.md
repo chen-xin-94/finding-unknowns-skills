@@ -1,7 +1,6 @@
 ---
 name: finding-unknowns
 description: Orchestrator for the full "finding your unknowns" workflow across before, during, and after implementation. Use to enter the whole method, or when the user is starting a non-trivial task and wants to surface what they don't know before it gets expensive. Routes to the right phase skill (blindspot-pass, brainstorm-prototypes, interview-me, reference-hunt, implementation-plan, implementation-notes, pitch-packager, change-quiz) based on where they are.
-disable-model-invocation: false
 ---
 
 # Finding your unknowns

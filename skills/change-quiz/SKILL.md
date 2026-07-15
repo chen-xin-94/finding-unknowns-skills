@@ -1,7 +1,6 @@
 ---
 name: change-quiz
 description: After a working session, produce a report on what changed plus a quiz the user must pass before merging. Use when the user asks "what did we actually do", wants to review a large change, or invokes a quiz before merge. Phase - after implementation.
-disable-model-invocation: false
 ---
 
 # Quizzes

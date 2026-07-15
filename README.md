@@ -61,7 +61,25 @@ Installing as a plugin groups every skill under a `(finding-unknowns)` label in 
 
 #### OpenAI Codex
 
-Copy `skills/*` into `~/.codex/skills/` — Codex reads the same `SKILL.md` format natively. (Codex has no plugin/marketplace system, so there's no grouped label; the skills just appear on their own.)
+**As a plugin (recommended):**
+
+```bash
+codex plugin marketplace add chen-xin-94/finding-unknowns-skills
+codex plugin add finding-unknowns@finding-unknowns-skills
+```
+
+Start a new Codex thread after installation. Plugin installation preserves the parent package in the skill selector, so phase skills can be identified as coming from `finding-unknowns` rather than appearing as unrelated loose skills.
+
+To update later:
+
+```bash
+codex plugin marketplace upgrade finding-unknowns-skills
+codex plugin add finding-unknowns@finding-unknowns-skills
+```
+
+If you previously used `npx skills add`, remove or disable those loose copies before installing the plugin. Otherwise Codex may show duplicate skills with the same name: one loose copy and one plugin-provided copy.
+
+**Manually:** copy `skills/*` into `~/.agents/skills/`. Loose skills work, but they do not retain the `finding-unknowns` plugin provenance in the selector.
 
 #### Any agent (universal)
 
@@ -136,7 +154,25 @@ Add `--list` to preview the skills, or `--skill blindspot-pass` to install just 
 
 #### OpenAI Codex
 
-把 `skills/*` 复制到 `~/.codex/skills/`——Codex 原生读取相同的 `SKILL.md` 格式。(Codex 没有 plugin/marketplace 系统,因此没有分组标签,skill 会各自单独出现。)
+**作为 plugin（推荐）：**
+
+```bash
+codex plugin marketplace add chen-xin-94/finding-unknowns-skills
+codex plugin add finding-unknowns@finding-unknowns-skills
+```
+
+安装后新建一个 Codex thread。Plugin 安装会在 skill selector 中保留父 package 来源，因此各阶段 skill 能显示自己来自 `finding-unknowns`，而不是一组互不相关的散装 skill。
+
+以后更新：
+
+```bash
+codex plugin marketplace upgrade finding-unknowns-skills
+codex plugin add finding-unknowns@finding-unknowns-skills
+```
+
+如果以前用过 `npx skills add`，请先删除或在 Codex 中禁用旧的散装副本，否则可能同时看到两个同名 skill：一个来自散装目录，一个来自 plugin。
+
+**手动安装：**把 `skills/*` 复制到 `~/.agents/skills/`。散装 skill 可以使用，但 selector 不会保留它属于 `finding-unknowns` plugin 的来源信息。
 
 #### 任意 agent(通用)
 

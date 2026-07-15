@@ -1,7 +1,6 @@
 ---
 name: brainstorm-prototypes
 description: Produce several genuinely different throwaway variations for the user to react to. Use when the user can only recognize what they want by seeing it (visual design, UX flows, naming, tone), or asks to brainstorm or prototype before building. Phase - before implementation.
-disable-model-invocation: false
 ---
 
 # Brainstorms and prototypes

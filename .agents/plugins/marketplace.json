@@ -1,0 +1,20 @@
+{
+  "name": "finding-unknowns-skills",
+  "interface": {
+    "displayName": "Finding Unknowns Skills"
+  },
+  "plugins": [
+    {
+      "name": "finding-unknowns",
+      "source": {
+        "source": "url",
+        "url": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

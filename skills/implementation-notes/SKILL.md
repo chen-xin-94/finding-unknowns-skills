@@ -1,7 +1,6 @@
 ---
 name: implementation-notes
 description: Keep a running implementation-notes.md during a build, logging every deviation from the plan and every discovered edge case. Use whenever implementing against an agreed plan or spec, especially in long autonomous sessions. Phase - during implementation.
-disable-model-invocation: false
 ---
 
 # Implementation notes
